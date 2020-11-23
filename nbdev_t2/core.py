@@ -13,6 +13,7 @@ def say_hello(to):
 
 # Cell
 class HelloSayer:
+    # backticks in a doc string will link to the docs of the function
     "Say hello to `to` using `say_hello`"
     def __init__(self, to): self.to = to
 
