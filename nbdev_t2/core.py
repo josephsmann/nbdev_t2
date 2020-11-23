@@ -3,6 +3,8 @@
 __all__ = ['say_hello', 'HelloSayer']
 
 # Cell
+# the export comment will put the function into the "core" module (as specificied in the ""# default_exp core" on the first line
+# of notebook )
 def say_hello(to):
     "say hello do to someone"
 #     print(f"Bonjiorno {to}")
